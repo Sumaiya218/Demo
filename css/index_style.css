@@ -1,0 +1,55 @@
+.item{
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.item .caption{
+    width: 90%;
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    background-color: white;
+}
+.item .caption  h4{
+    font-size: 18px;
+}
+.item .caption p{
+    font-size: 13px;
+}
+.box{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.55);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.box .box-item{
+    width: 50%;
+    height: 550px;
+    background-image: url(../images/portfolio-1.jpg)  ;
+    background-size: 100%;
+    position: relative;
+}
+.box .box-item i{
+    cursor: pointer;
+    font-size: 30px;
+    color: lemonchiffon;
+}
+#close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
